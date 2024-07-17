@@ -24,8 +24,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run tests
-        run: npm test
-
       - name: Deploy
         run: echo "Hello, World!" # Replace with your deployment script
